@@ -1,10 +1,10 @@
-using Microsoft.EntityFrameworkCore;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Paari.DataAccess;
-using Paari.DataAccess.Repository;
-using Paari.Infrastructure.Model;
 using System;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
+using Paari.Infrastructure.Model;
 using System.Collections.Generic;
+using Paari.DataAccess;
+using Microsoft.EntityFrameworkCore;
+using Paari.DataAccess.Repository;
 
 namespace Paari.RepositoryTests
 {

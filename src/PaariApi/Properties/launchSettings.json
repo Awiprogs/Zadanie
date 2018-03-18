@@ -3,7 +3,7 @@
     "windowsAuthentication": false,
     "anonymousAuthentication": true,
     "iisExpress": {
-      "applicationUrl": "http://localhost:56491/",
+      "applicationUrl": "http://localhost:51946/",
       "sslPort": 0
     }
   },
@@ -16,13 +16,14 @@
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
-    "Paari": {
+    "PaariApi": {
       "commandName": "Project",
       "launchBrowser": true,
-      "launchUrl": "http://localhost:5000/api/product",
+      "launchUrl": "api/product",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
-      }
+      },
+      "applicationUrl": "http://localhost:51947/"
     }
   }
 }
